@@ -1,0 +1,620 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<!-- Main Promotional Section -->
+<div class="container main-promo-section">
+    <div class="row">
+        <div class="col-md-1">
+            <div class="build-your-own">
+                <a href="#">Kendin Topla</a>
+            </div>
+        </div>
+        <!-- Left Banner -->
+        <div class="col-md-2">
+            <div class="promo-card bg-orange">
+                <div id="leftBannerCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/img/dikey-banner1.jpg" class="d-block w-100" alt="Banner 1 Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/img/dikey-banner2.jpg" class="d-block w-100" alt="Banner 1 Slide 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#leftBannerCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#leftBannerCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Center Carousels -->
+        <div class="col-md-4">
+            <div class="row mt-0">
+                <div class="col-md-12">
+                    <div class="promo-card center bg-orange">
+                        <img src="~/img/banner1.jpg" alt="Banner 2">
+                        <div class="promo-content">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12  ">
+                    <div class="promo-card center bg-red">
+                        <img src="~/img/banner-1-1.jpg" alt="Alt Banner 2">
+                        <div class="promo-content">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Right Banner -->
+        <div class="col-md-5">
+            <div class="promo-card bg-green">               
+                <div id="rightBannerCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/img/banner3.jpg" class="d-block w-100" alt="Banner 3 Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/img/banner4.jpg" class="d-block w-100" alt="Banner 3 Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/img/banner4.jpg" class="d-block w-100" alt="Banner 3 Slide 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#rightBannerCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#rightBannerCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 12 Circular Images Section -->
+<div class="container mt-4">
+    <!-- Desktop View (12 columns) -->
+    <div class="row text-center d-none d-md-flex">
+        <!-- 12 adet yuvarlak resim alanı buraya gelecek -->
+        <div class="col-md-1 mb-3">
+            <a href="#" class="new">
+                <div class="circular-image-container">
+                    <img src="~/img/circle.jpeg" class="circular-image" alt="Kategori 2">
+                    <div class="campaign-box">YENİ KAMPANYA</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-1 mb-3">
+            <a href="#" class="new">
+                <div class="circular-image-container">
+                    <img src="~/img/circle2.jpeg" class="circular-image" alt="Kategori 1">
+                    <div class="campaign-box">YENİ KAMPANYA</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-1 mb-3">
+            <a href="#" class="new">
+                <div class="circular-image-container">
+                    <img src="~/img/circle3.jpeg" class="circular-image" alt="Kategori 3">
+                    <div class="campaign-box">YENİ KAMPANYA</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle4.png" class="circular-image" alt="Kategori 4"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle5.jpeg" class="circular-image" alt="Kategori 5"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle6.jpeg" class="circular-image" alt="Kategori 6"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle.jpeg" class="circular-image" alt="Kategori 7"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle2.jpeg" class="circular-image" alt="Kategori 8"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle3.jpeg" class="circular-image" alt="Kategori 9"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle4.png" class="circular-image" alt="Kategori 10"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle5.jpeg" class="circular-image" alt="Kategori 11"></a></div>
+        <div class="col-md-1 mb-3"><a href="#"><img src="~/img/circle6.jpeg" class="circular-image" alt="Kategori 12"></a></div>
+    </div>
+
+    <!-- Mobile Slider View (4 items per slide) -->
+    <div id="circularImageCarousel" class="carousel slide d-md-none" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row text-center">
+                    <div class="col-3">
+                        <a href="#" class="new">
+                            <div class="circular-image-container">
+                                <img src="https://placehold.co/100x100?text=2" class="circular-image" alt="Kategori 2">
+                                <div class="campaign-box">YENİ KAMPANYA</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="new">
+                            <div class="circular-image-container">
+                                <img src="https://placehold.co/100x100?text=1" class="circular-image" alt="Kategori 1">
+                                <div class="campaign-box">YENİ KAMPANYA</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#" class="new">
+                            <div class="circular-image-container">
+                                <img src="https://placehold.co/100x100?text=3" class="circular-image" alt="Kategori 3">
+                                <div class="campaign-box">YENİ KAMPANYA</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=4" class="circular-image" alt="Kategori 4"></a></div>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row text-center">
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=5" class="circular-image" alt="Kategori 5"></a></div>
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=6" class="circular-image" alt="Kategori 6"></a></div>
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=7" class="circular-image" alt="Kategori 7"></a></div>
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=8" class="circular-image" alt="Kategori 8"></a></div>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="row text-center">
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=9" class="circular-image" alt="Kategori 9"></a></div>
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=10" class="circular-image" alt="Kategori 10"></a></div>
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=11" class="circular-image" alt="Kategori 11"></a></div>
+                    <div class="col-3"><a href="#"><img src="https://placehold.co/100x100?text=12" class="circular-image" alt="Kategori 12"></a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#circularImageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#circularImageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <!-- Carousel Indicators (optional) -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#circularImageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#circularImageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#circularImageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    </div>
+    <!-- Add some spacing below the carousel -->
+    <div class="mb-3 d-md-none"></div>
+</div>
+
+<!-- Three-Part Banner Section -->
+<div class="container mt-4 three-part-banner-section">
+    <div class="row">
+        <!-- Left Banner (col-md-3) -->
+        <div class="col-md-3 mb-3">
+            <div class="promo-card bg-primary text-white three-part-banner-left">
+                <div class="promo-content">
+                    <h3>Özel Teklifler</h3>
+                    <p>Kaçırma!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Middle Banner (col-md-3) -->
+        <div class="col-md-3 mb-3">
+            <div class="promo-card bg-danger text-white three-part-banner-middle">
+                <div class="promo-content">
+                    <h3>Yeni Ürünler</h3>
+                    <p>Keşfet!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Right Banner Slider (col-md-6) -->
+        <div class="col-md-6 mb-3">
+            <div id="rightThreePartBannerCarousel" class="carousel slide promo-card" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="~/img/slider.jpg" class="d-block w-100" alt="Slider 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/img/slider-2.jpg" class="d-block w-100" alt="Slider 2">
+                        <div class="carousel-caption d-none d-md-block">
+                           
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/img/slider.jpg" class="d-block w-100" alt="Slider 3">
+                        <div class="carousel-caption d-none d-md-block">
+                           
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#rightThreePartBannerCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#rightThreePartBannerCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#rightThreePartBannerCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#rightThreePartBannerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#rightThreePartBannerCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <!-- Ürün 1 -->
+        <div class="col-md-2 col-sm-6">
+            <div class="product-card">
+                <img src="~/img/urun-1.png" alt="Ürün 1" class="product-image">
+                <h3 class="product-title">Ürün Adı 1</h3>
+                <p class="product-description">Ürün açıklaması burada yer alacak. Kısa ve öz bir açıklama.</p>
+                <div class="product-price">₺299.99</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <!-- Ürün 2 -->
+        <div class="col-md-2 col-sm-6">
+            <div class="product-card">
+                <img src="~/img/urun-2.png" alt="Ürün 2" class="product-image">
+                <h3 class="product-title">Ürün Adı 2</h3>
+                <p class="product-description">Ürün açıklaması burada yer alacak. Kısa ve öz bir açıklama.</p>
+                <div class="product-price">₺199.99</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <!-- Ürün 3 -->
+        <div class="col-md-2 col-sm-6">
+            <div class="product-card">
+                <img src="~/img/urun-3.png" alt="Ürün 3" class="product-image">
+                <h3 class="product-title">Ürün Adı 3</h3>
+                <p class="product-description">Ürün açıklaması burada yer alacak. Kısa ve öz bir açıklama.</p>
+                <div class="product-price">₺399.99</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <!-- Ürün 4 -->
+        <div class="col-md-6 col-sm-6">
+            <a href="#" class="d-block h-100">
+                <!-- Desktop view with background image -->
+                <div class="promo-card bg-danger text-white h-100 d-none d-sm-block product-4-desktop">
+                    <div class="promo-content">
+                        <h3>Öne Çıkan Ürün</h3>
+                        <p>Harika Fırsatları Keşfedin!</p>
+                    </div>
+                </div>
+                <!-- Mobile view with regular image -->
+                <div class="d-sm-none">
+                    <img src="https://placehold.co/600x200/dc3545/ffffff?text=Promotional+Banner" class="img-fluid rounded" alt="Promotional Banner">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Category Buttons -->
+<div class="container-fluid mt-4 category-buttons-section">
+    <div class="container">
+        <div class="row text-center">
+            <!-- Örnek Kategori Kartları (Toplam 12 adet) -->
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-1.png" alt="Notebooklar">
+                        <h6>Notebooklar</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-2.png" alt="Hazır Sistemler">
+                        <h6>Hazır Sistemler</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-3.jpg" alt="Depolama">
+                        <h6>Depolama</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-4.jpg" alt="Monitörler">
+                        <h6>Monitörler</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-5.jpg" alt="Bilgisayar Parçaları">
+                        <h6>Bilgisayar Parçaları</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-6.png" alt="Oyuncu Ekipmanları">
+                        <h6>Oyuncu Ekipmanları</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-7.png" alt="Aksesuar">
+                        <h6>Aksesuar</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-8.png" alt="Yazılım">
+                        <h6>Yazılım</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-9.png" alt="Tablet">
+                        <h6>Tablet</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-10.jpg" alt="Telefon">
+                        <h6>Telefon</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-11.png" alt="Televizyon">
+                        <h6>Televizyon</h6>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6 mb-3">
+                <a href="#" class="category-card-link d-block">
+                    <div class="category-card-with-title">
+                        <img src="~/img/kutu-12.jpg" alt="Ev Elektroniği">
+                        <h6>Ev Elektroniği</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+<!-- Hazır Sistemler Section -->
+<div class="container mt-4">
+    <div class="d-flex  align-items-center mb-3">
+        <h3>Hazır Sistemler</h3>
+        <a href="#" class="text-muted ml-1">Tümünü Gör <i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div class="row row-cols-5">
+        <!-- Hazır Sistem Ürün Kartları (Toplam 10 adet) -->
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 1" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 2" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 3" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 4" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 5" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 6" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 7" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 8" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 9" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+        <div class="col-20 col-sm-4 col-6 mb-4">
+            <div class="product-card-hazir-sistem">
+                <img src="~/img/kasa.jpg" alt="Hazır Sistem 10" class="product-image">
+                <div class="product-title">AFK-MD / AMD Ryzen 5 5500 / Gigabyte Radeon RX 6600 / 16GB RAM / 500GB NVME SSD Gaming PC</div>
+                <div class="product-specs">
+                    <ul>
+                        <li><i class="fas fa-check"></i> AMD Ryzen 5 5500 İşlemci</li>
+                        <li><i class="fas fa-check"></i> GIGABYTE Radeon RX 6600 Ekran Kartı</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 8GB x2 RAM</li>
+                        <li><i class="fas fa-check"></i> GOODRAM 512GB M.2 2280 SSD</li>
+                    </ul>
+                </div>
+                <div class="product-price">₺24.999,56</div>
+                <button class="btn btn-primary btn-add-cart">Sepete Ekle</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Info Icons Section -->
+<div class="container container pt-3 mb--5">
+    <div class="row text-center align-items-center info-icons-row">
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center info-item">
+                <i class="fas fa-thumbs-up fa-2x text-dark"></i>
+                <h6 class="mt-2 mt-sm-0 ms-sm-2 mb-0">MÜŞTERİ MEMNUNİYETİ</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center info-item">
+                <i class="fas fa-shield-alt fa-2x text-dark"></i>
+                <h6 class="mt-2 mt-sm-0 ms-sm-2 mb-0">100% GARANTİ</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center info-item">
+                <i class="fas fa-wrench fa-2x text-dark"></i>
+                <h6 class="mt-2 mt-sm-0 ms-sm-2 mb-0">TEKNİK DESTEK VE MONTAJ</h6>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center info-item no-border">
+                <i class="fas fa-truck fa-2x text-dark"></i>
+                <h6 class="mt-2 mt-sm-0 ms-sm-2 mb-0">KARGO HİZMETİ</h6>
+            </div>
+        </div>
+    </div>
+</div>

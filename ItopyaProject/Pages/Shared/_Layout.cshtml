@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ItopyaProject</title>
+    <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Top Stripes -->
+    <div class="top-stripes d-none d-md-block">
+        <!-- Mobil'de gizle -->
+        <div class="container">
+            <div class="info-box">
+                <i class="fas fa-circle text-red"></i> <!-- Kırmızı nokta -->
+                <span>Sınırlı Stok</span>
+            </div>
+            <div class="info-box">
+                <i class="fas fa-clock"></i> <!-- Saat ikonu -->
+                <span>Son 10 Dakika</span>
+            </div>
+            <span class="main-text">RTX 4070 SUPER'Lİ SİSTEM 25.999 TL</span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/itopya-logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="search-bar">
+                    <input type="text" class="form-control" placeholder="Hızlı arama, model, marka...">
+                </div>
+                <ul class="navbar-nav nav-links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user"></i> Hesabım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> 2 Ürün - 35.500 TL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+            @RenderBody()
+       
+
+    <footer class="bg-white mt-5 p-4  text-dark">
+        <div class="container">
+            <div class="row">
+                <!-- ITOPYA.COM -->
+                <div class="col-md-2">
+                    <h5 class="text-dark">ITOPYA.COM</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">Hakkımızda</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Kariyer</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Mağazalarımız</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Bilgi Toplum Hizmetleri</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Banka Hesapları</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Duyurular</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Bize Ulaşın</a></li>
+                    </ul>
+                </div>
+                <!-- İŞLEM REHBERİ -->
+                <div class="col-md-2">
+                    <h5 class="text-dark">İŞLEM REHBERİ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">Nasıl Sipariş Verebilirim?</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Siparişimi Nasıl Takip Edebilirim?</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Ödeme Seçenekleri</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Ödeme ve Güvenlik</a></li>
+                    </ul>
+                </div>
+                <!-- MÜŞTERİ HİZMETLERİ -->
+                <div class="col-md-2">
+                    <h5 class="text-dark">MÜŞTERİ HİZMETLERİ</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">İptal ve İade Koşulları</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Garanti Koşulları</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Sıkça Sorulan Sorular</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">KVKK Aydınlatma Metni</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Çerez Politikası</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Mesafeli Satış Sözleşmesi</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Gizlilik Politikamız</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Satış Sonrası Destek</a></li>
+                    </ul>
+                </div>
+                <!-- KATEGORİLER -->
+                <div class="col-md-2">
+                    <h5 class="text-dark">KATEGORİLER</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-dark text-decoration-none">Hazır Sistemler</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Bilgisayar Toplama</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Gaming Notebooklar</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Gaming Monitörler</a></li>
+                    </ul>
+                </div>
+                <!-- İletişim ve Sosyal Medya -->
+                <div class="col-md-4">
+                    <!-- Telefon -->
+                    <div class="mb-3">
+                        <h5 class="text-dark"><i class="fas fa-phone-alt me-2"></i>0850 259 26 96</h5>
+                        <p class="text-dark">Çağrı Merkezimize hafta içi her gün 9:00 ila akşam 18:00 arası ulaşabilirsiniz.</p>
+                    </div>
+                    <!-- Sosyal Medya -->
+                    <div class="social-icons mb-3 text-md-end">
+                        <a href="#" class="text-dark me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-tiktok fa-lg"></i></a>
+                        <a href="#" class="text-dark me-3"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-whatsapp fa-lg"></i></a>
+                    </div>
+                    <!-- Ödeme Yöntemleri ve ETBIS -->
+                </div>
+            </div>
+            <!-- Ödeme Yöntemleri ve Telif Hakkı -->
+            <div class="row mt-4 align-items-center">
+                <div class="col-md-8">
+                    <div>
+                        <img src="img/card-info.png" alt="Ödeme Yöntemleri" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <div class="mb-2">
+                        <h6 class="text-dark mb-0">ETBIS Kare Kod</h6>
+                        <div>
+                            <img width="100" src="img/qr.jpeg" alt="ETBIS Kare Kod" class="img-fluid">
+                        </div>
+                    </div>
+                    <p class="mt-3 mb-0 text-dark">&copy; 2024 Itopya.com - Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS ve Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    @* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> *@
+    <!-- Font Awesome Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @* <script src="~/js/site.js" asp-append-version="true"></script> *@
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
